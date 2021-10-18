@@ -1,5 +1,7 @@
 import json
 
+def bruv():
+    return "dude"
 
 def lambda_handler(event, context):
     """Sample pure Lambda function
@@ -27,7 +29,7 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": json.dumps(
             {
-                "message": "hello world bro",
+                "message": "hello world " + bruv(),
             }
         ),
     }
