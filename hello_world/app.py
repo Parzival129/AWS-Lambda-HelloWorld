@@ -1,8 +1,10 @@
 import json
 
+# preproccesing section
 def bruv():
     return "dude"
 
+# main lambda handler func
 def lambda_handler(event, context):
     """Sample pure Lambda function
 
